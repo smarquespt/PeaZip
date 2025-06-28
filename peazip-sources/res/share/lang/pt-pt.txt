@@ -7,15 +7,15 @@ Revisto em: 20250304
 
 === PeaZip text group ===
 
-txt_10_5_fr: (full report)
-txt_10_5_sectype: Ask confirmation for running following file types
-txt_10_5_checkmotw: Check Zone.Identifier (MoTW)
-txt_10_5_sectypewarning: Do you want to run this file?
-txt_10_5_pathlock: Items in this path of the archive cannot be edited
-txt_10_5_type_description_rar: RAR: proprietary archive format, high compression ratio, supported through external compressor
-txt_10_5_sh: Show hidden files and folders in the filesystem
-txt_10_5_ntfsalt: This format is able to store NTFS Alternate Data Stream, including Mark of The Web
-txt_10_4_moving: (Moving)
+txt_10_5_fr: (relatório completo)
+txt_10_5_sectype: Confirmar antes de executar estes tipos de ficheiros
+txt_10_5_checkmotw: Analisar Zone.Identifier (MoTW)
+txt_10_5_sectypewarning: Deseja executar este ficheiro?
+txt_10_5_pathlock: Os itnes neste caminho do arquivo não podem ser editados
+txt_10_5_type_description_rar: RAR: formato proprietário com alto nível de compressão, suportado através de um compressor externo
+txt_10_5_sh: Mostrar ficheiros e pastas ocultas
+txt_10_5_ntfsalt: Este formato permite o armazenamento de "NTFS Alternate Data Stream", incluindo "Mark of The Web"
+txt_10_4_moving: (A mover)
 txt_10_3_classic: Clássico
 txt_10_3_ascii: Para o tipo de arquivo selecionado, recomendamos a utilização exclusiva de caracteres ASCII para as palavas-passe (letras maiúsculas e minúsculas, números e caracteres especiais).
 txt_10_3_minimal: Minimal
@@ -93,7 +93,7 @@ txt_9_0_plugind: Abrir pasta de binários e de plugins
 txt_9_0_df: Mostrar pastas acima dos ficheiros
 txt_9_0_hl: Guardar "hard links" como ligações
 txt_9_0_sl: Guardar ligações simbólicas como ligações
-txt_9_0_tnav: Comutar entre barra lateral, vista em árvore, nada
+txt_9_0_tnav: Comutar barra de navegação
 txt_8_9_empty: Parece que o arquivo está vazio
 txt_8_9_disp: Mostrar conteúdo do arquivo
 txt_8_9_parsing: Analisar conteúdo do arquivo
@@ -106,7 +106,7 @@ txt_8_8_centered: Centrar botões
 txt_8_8_light: Claro
 txt_8_8_lnk: Ligação
 txt_8_8_intnote: Tenha em atenção que a opção "Extrair e mover para o destino" (Opções > Definições > Gestor de arquivos) é ignorada ao criar a linha de comandos no separador Consola
-txt_8_8_snz: Propagar fluxo Zone.Identifier (Windows)
+txt_8_8_snz: Propagar Zone.Identifier (MoTW) (Windows, NTFS)
 txt_8_8_sm: Ícones pequenos
 txt_8_8_solcol: Barra de navegação
 txt_8_8_snoi: Guardar ID do dono/grupo (TAR, Linux)
@@ -164,7 +164,7 @@ txt_8_1_bo: Otimização do explorador
 txt_8_1_bop: As opções de otimização do explorador podem ser definidas em Opções > Definições, separador Geral, de modo a permitir que o explorador mostre arquivos que possuam um número muito grande de itens.
 txt_8_1_nopreparse: Não pré-analisar arquivos
 txt_8_1_ed: erro(s) detetado(s).
-txt_8_1_togglearc: Listar o conteúdo de um arquivo de uma forma plana pode ser demorado, continuar?
+txt_8_1_togglearc: Listar o conteúdo de um arquivo na vista plana pode ser demorado, continuar?
 txt_8_1_preparsehint: Otimizar desempenho limitando a pré-análise de arquivos grandes. A pré-análise destina-se a detetar possíveis erros no conteúdo dos arquivos.
 txt_8_1_slow: Lenta
 txt_8_1_vslow: Muito lenta
@@ -1203,8 +1203,8 @@ txt_extand_error: Esta função só pode ser realizada com um objeto de cada vez
 txt_threads: Processos
 txt_titlescolor: Cor de títulos
 txt_to: para
-txt_toggle_browseflat: Alternar entre explorador/vista plana (mostrar tudo)
-txt_toggle_historybookmarks: Alternar entre histórico/marcadores
+txt_toggle_browseflat: Comutar entre explorador/vista plana (mostrar tudo)
+txt_toggle_historybookmarks: Comutar barra de estado
 txt_toolbarscolor: Cor das barras de ferramentas
 txt_tools: Ferramentas
 txt_best: tentar melhores definições (lento)
