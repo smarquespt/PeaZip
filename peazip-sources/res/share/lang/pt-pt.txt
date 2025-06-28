@@ -2,8 +2,8 @@
 Portuguese (Portugal) - Português
 10.5
 Tradução: Hugo Carvalho, José Carlos, Sérgio Marques
-Revisão: Hugo Carvalho
-Revisto em: 20250304
+Revisão: Sérgio Marques
+Revisto em: 20250628
 
 === PeaZip text group ===
 
