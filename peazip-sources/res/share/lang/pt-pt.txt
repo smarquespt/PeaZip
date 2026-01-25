@@ -7,11 +7,11 @@ Revisto em: 20251030
 
 === PeaZip text group ===
 
-txt_10_8_log: Commands log
-txt_10_8_rv: Create recovery volumes
-txt_10_8_bk: Execute small workloads in background
-txt_10_8_params: Pass command line as separate parameters
-txt_10_8_untarerr: TAR name does not match archive name. It is possible to try to open the archive to manually extract the TAR content.
+txt_10_8_log: Registo de comandos
+txt_10_8_rv: Criar volumes de recuperação
+txt_10_8_bk: Executar pequenos processos em segundo plano
+txt_10_8_params: Enviar linha de comandos como parâmetros distintos
+txt_10_8_untarerr: O nome TAR não coincide com o nome do arquivo. Pode tentar abrir o arquivo e extrair manualmente o seu conteúdo TAR.
 txt_10_7_errload: Não é possível apresentar a imagem
 txt_10_7_errfile: Ficheiro não encontrado
 txt_10_7_first: Primeiro
@@ -31,7 +31,7 @@ txt_10_5_checkmotw: Verificar Zone.Identifier (MoTW)
 txt_10_5_sectypewarning: Pretende executar este ficheiro?
 txt_10_5_pathlock: Não é possível editar os itens neste caminho do arquivo
 txt_10_5_type_description_rar: RAR: formato de arquivo proprietário, rácio de compressão elevado, suportado através de compressor externo
-txt_10_5_sh: Mostrar ficheiros e pastas ocultos no sistema de ficheiros
+txt_10_5_sh: Mostrar ficheiros ocultos (no sistema de ficheiros)
 txt_10_5_ntfsalt: Este formato pode guardar fluxos de dados alternativos NTFS, incluindo Mark of The Web
 txt_10_4_moving: (A mover)
 txt_10_3_classic: Clássico
@@ -181,7 +181,7 @@ txt_8_1_preparse: Pré-analisar arquivos
 txt_8_1_bo: Otimização do explorador
 txt_8_1_bop: As opções de otimização do explorador podem ser definidas em Opções > Definições, separador Geral, de modo a permitir que o explorador mostre arquivos que possuam um número muito grande de itens.
 txt_8_1_nopreparse: Não pré-analisar arquivos
-txt_8_1_ed: erro(s) detetado(s).
+txt_8_1_ed: Erro(s) detetado(s).
 txt_8_1_togglearc: Listar o conteúdo de um arquivo de uma forma plana pode ser demorado, continuar?
 txt_8_1_preparsehint: Otimizar desempenho limitando a pré-análise de arquivos grandes. A pré-análise destina-se a detetar possíveis erros no conteúdo dos arquivos.
 txt_8_1_slow: Lenta
@@ -468,7 +468,7 @@ txt_5_0_resetpm: Confirma a reposição do Gestor de palavras-passe? Todas as pa
 txt_5_0_enum: Enumerar conteúdo da pasta
 txt_5_0_music: Música
 txt_5_0_ps: Abrir PowerShell aqui
-txt_5_0_perf: Desempenho
+txt_5_0_perf: Desempenhos
 txt_5_0_pictures: Imagens
 txt_5_0_removeall: Remover tudo
 txt_5_0_resetbookmarks: Repor Marcadores pré-definidos? (Os marcadores podem ser personalizados em Marcadores -> Organizar)
@@ -838,7 +838,7 @@ txt_clear: Limpar
 txt_clearlayout: Limpar disposição
 txt_pj_hint: Clique para importar tarefas, repor alterações e carregar até à data de definição
 txt_autoclose: Nunca parar para analisar o relatório de tarefas
-txt_cl: linha de comandos:
+txt_cl: Linha de comandos:
 txt_compare: Comparar ficheiros
 txt_compress: Comprimir
 txt_compress_executable: Comprimir executável
@@ -869,7 +869,7 @@ txt_custom_parameters: Parâmetros personalizados
 txt_customsize: Tamanho personalizado
 txt_cut: Cortar
 txt_datetime: Data/Hora
-txt_default: padrão
+txt_default: Padrão
 txt_default_compression: compressão padrão
 txt_default_format: Formato padrão
 txt_theme_default: Tema padrão
@@ -1300,7 +1300,7 @@ txt_2_7_validatefn: Operação interrompida, nome inválido detetado:
 txt_2_7_validatecl: Operação interrompida, comando perigoso detetado (i.e., a concatenação de comandos não é permitida):
 txt_2_6_open: Abrir arquivo
 txt_2_5_ace_missing: O "plugin" UNACE não está instalado; para manipular arquivos ACE pode descarregar o "plug-in" no site do PeaZip (UNACE tem o código fechado, o "plugin" não está no pacote base)
-txt_2_3_pw_errorchar_gwrap: : este caractere não pode ser utilizado pelo PeaLauncher nas palavras-passe do sistema atual. Por favor altere a palavra-passe ou use o PeaZip no modo de Console (Ferramentas > Definições)
+txt_2_3_pw_errorchar_gwrap: Este carácter não pode ser utilizado nas palavras-passe do sistema atual. Altere a palavra-passe ou escolha o modo Consola nos binários de infraestrutura, disponível em Opções -> Definições
 txt_2_3_renameexisting: Mudar automaticamente o nome dos ficheiros existentes
 txt_2_3_renameextracted: Mudar automaticamente o nome dos ficheiros extraídos
 txt_2_3_cancel: Cancelar
@@ -1473,3 +1473,4 @@ Suporte: https://peazip.github.io/peazip-help.html
 FAQ: https://peazip.github.io/peazip-help-faq.html
 
 Muito obrigado a todas as pessoas que colaboraram no desenvolvimento do PeaZip e nos componentes de código livre utilizados nesta aplicação (consulte o site para mais informações), bem como a todos os utilizadores que reportaram erros, avisos e informações.
+
